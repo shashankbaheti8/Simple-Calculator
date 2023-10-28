@@ -16,7 +16,7 @@ Array.from(buttons).forEach((button)=>{
     }
     
     //delete
-    else if (e.target.innerHTML == 'Del') {
+    else if (e.target.innerHTML == 'DEL') {
         if(string.length > 1){
             string = string.slice(0, -1);
             inputField.value = string;
